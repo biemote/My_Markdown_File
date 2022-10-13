@@ -75,7 +75,7 @@
 - Catch
  - 同一时间有多个note的谱面后应添加`+`加以区分。  
 
-		> 一个例子：`Rain+`
+	> 一个例子：`Rain+`
 
 #### 准则
 - Key
@@ -166,3 +166,8 @@
 ### CID & Chart Page
 *CID既是对应的Chart Page的ID，也是谱面本身所对应的ID。填写0上传时会创建新的Chart Page和CID。
 任何谱面都属于以下三种状态之一，但只有拥有Assistant及以上权限的用户才能更改谱面状态。*
+
+#### 规定
+- **Key模式Chart必须在Tags内勾选对应的轨道数量的Tag。**
+- **非Uploader本人创作的谱面上架时，由Publisher将其Transfer至Creator。**若Creator未拥有Mugzone账号，可挂载于Uploader名下。
+- **多人合作谱面上架时，由Publisher将其Transfer至贡献最大的Creator。**若Creator未拥有Mugzone账号，按照贡献程度依次顺延，都为拥有则挂载于Uploader名下。
