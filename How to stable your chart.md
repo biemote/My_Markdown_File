@@ -17,7 +17,7 @@
 	- 最早收录此曲的媒体载体、官方Database/wiki、艺术家或厂牌的官网、CD Booklet扫图、作者亲自上传至Bandcamp/SoundCloud/YouTube/Bilibili/niconico的内容通常被视为官方元数据来源。  
 	- 可信度较高的第三方Database/wiki（vndb、vgmdb、remywiki等）为次要的元数据来源。  
 	- 音乐媒体服务商（Spotify、iTunes、Amazon、网易云音乐等）提供的元数据信息优先级最低。
-	- 相对较新的元数据的例子：EZ2DJ内曾收录过一曲*Black Bird*，但其系列作后来都直接标明其作者为*M2U*了，因此元数据标记为`M2U - Black Bird`才是相对更优的选择。
+	- 相对较新的元数据的例子：EZ2DJ内曾收录过一曲*Black Bird*，最开始时其作者名义为*Infinity Poly*，但其系列作后来都直接标明作者为*M2U*了，因此元数据标记为`M2U - Black Bird`才是相对更优的选择。
 - **歌曲的艺术家必须可以追溯到真实存在的人，但由虚拟角色组成的固定名义的团体以及艺术家字段长度过长而导致的缩短情况除外。** 如果作者已不可考，则应使用`Unknown Artist`。歌曲的唯一作者不能设为某个虚拟的角色或软件，除非此为作者的代号。
 
 	- 比如，Vocaloid音源和角色歌的角色不能作为艺术家。
@@ -170,8 +170,8 @@
 
 #### 规定
 - **Key模式Chart必须在Tags内勾选对应的轨道数量的Tag。**
-- **非Uploader本人创作的谱面上架时，由Publisher将其Transfer至Creator。**若Creator未拥有Mugzone账号，可挂载于Uploader名下。
-- **多人合作谱面上架时，由Publisher将其Transfer至贡献最大的Creator。**若Creator未拥有Mugzone账号，按照贡献程度依次顺延，都为拥有则挂载于Uploader名下。
+- **非Uploader本人创作的谱面上架时，由Publisher将其Transfer至Creator。** 若Creator未拥有Mugzone账号，可挂载于Uploader名下。
+- **多人合作谱面上架时，由Publisher将其Transfer至贡献最大的Creator。** 若Creator未拥有Mugzone账号，按照贡献程度依次顺延，都为拥有则挂载于Uploader名下。
 ***
 ## 谱面内容
 ### 规定
