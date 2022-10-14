@@ -1,3 +1,4 @@
+Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱面。其中，优质的谱面将会被标记为上架`Stable`，并且允许玩家在游玩这些谱面后获得永久成绩。社区也会积极帮助那些有志于提供可上架的谱面的作者。以下为上架规则，所有谱面的上架都必须以满足这些规则为前提。
 # 术语
 ## 一般术语
 - **规定（Rules）：**在**任何情况**下都必须遵守，**不允许**违反。
@@ -17,7 +18,7 @@
 	- 最早收录此曲的媒体载体、官方Database/wiki、艺术家或厂牌的官网、CD Booklet扫图、作者亲自上传至Bandcamp/SoundCloud/YouTube/Bilibili/niconico的内容通常被视为官方元数据来源。  
 	- 可信度较高的第三方Database/wiki（vndb、vgmdb、remywiki等）为次要的元数据来源。  
 	- 音乐媒体服务商（Spotify、iTunes、Amazon、网易云音乐等）提供的元数据信息优先级最低。
-	- 相对较新的元数据的例子：EZ2DJ内曾收录过一曲*Black Bird*，最开始时其作者名义为*Infinity Poly*，但其系列作后来都直接标明作者为*M2U*了，因此元数据标记为`M2U - Black Bird`才是相对更优的选择。
+- **音游曲经常会有同一作曲者使用不同名义作曲的情况，此时只能使用作曲家在此曲的元数据上表记的内容，而不是直接使用作曲家最常用的名义。**
 - **歌曲的艺术家必须可以追溯到真实存在的人，但由虚拟角色组成的固定名义的团体以及艺术家字段长度过长而导致的缩短情况除外。** 如果作者已不可考，则应使用`Unknown Artist`。歌曲的唯一作者不能设为某个虚拟的角色或软件，除非此为作者的代号。
 
 	- 比如，Vocaloid音源和角色歌的角色不能作为艺术家。
@@ -51,8 +52,7 @@
 - **若要罗马音化外来词，则应使用其原词的罗马音，而不是这个外来词的罗马音。**
 - **当曲名或艺术家中使用表意重复的单词（一个是 Unicode字符，另一个是罗马音）时，罗马音化字段只能填写此罗马音，并移除重复字符。**
 
-	> 一个例子：`DJ TOTTO VS 兎々 - 伐折羅-vajra-`→`DJ TOTTO VS TOTTO - Vajra
-`
+	> 一个例子：`DJ TOTTO VS 兎々 - 伐折羅-vajra-`→`DJ TOTTO VS TOTTO - Vajra`
 - **中文标题罗马音化时，使用汉语拼音方案（但不标记声调）逐字罗马音化，字与字之间添加空格。**注意来自港台的歌曲要使用**繁体字**（除非此曲无论何时都仅使用简体字表记）。
 - **日文元数据的罗马音化，必须使用？？？？方案。** 对于非Unicode域，为避免出现长元音符号，`おう`和`うう`应该写作罗马音`ou`和`uu`。
 - **本文未涉及的语言的罗马音化方案，请咨询对应语言的母语使用者。**
@@ -62,6 +62,8 @@
 	
 - 当一首歌曲被另一个艺术家翻唱或改编，且标题原文与原始歌曲不同时，需使用常识来辨认这是艺术家有意为之还是无意犯错。
 - 存在多种可用的元数据时，应优先选择容易辨识、方便追溯到原曲或来源的较新元数据。
+
+	> 相对较新的元数据的例子：EZ2DJ内曾收录过一曲*Black Bird*，最开始时其作者名义为*Infinity Poly*，但其系列作后来都直接标明作者为*M2U*了，因此元数据标记为`M2U - Black Bird`才是相对更优的选择。
 - **应将单个符号罗马音化，并在它的前后添加空格（英文逗号前侧无需添加空格）。** 如果是艺术家有意使用特殊字符，并违反了通常的标准化规则，则可忽略此条准则。
 
 	> 一个例子：`DM Ashura - ΔMAX`→`DM Ashura - Delta MAX`
@@ -73,7 +75,7 @@
 	- **必须按照** `%轨道数量%K %难度名% Lv.%难度等级%`**的格式填写。**  
 	- **不允许出现过长的难度名。**
 - Catch
-	- 同一时间有多个note的谱面后应添加`+`加以区分。  
+	- **同一时间有多个note的谱面后应添加`+`加以区分。**
 
 		> 一个例子：`Rain+`
 
@@ -118,8 +120,8 @@
 ## 文件
 ### 所有内容都必须遵守的规定
 - **文件名都不允许过长，且不可以包含连续的空格 、非Unicode字符 以及特殊符号 。**
-- **不能包含任何18禁元素、会引起不适的内容以及NSFW内容（具体判定标准由Admin确定）。上传此类内容会导致您的账号永久`DIED`。**
 - **不允许包含严重涉政、攻击性过强的敏感内容。**
+- **不能包含任何18禁元素、会引起不适的内容以及NSFW内容（具体判定标准由Admin确定）。上传此类内容会导致您的账号永久`DIED`。**
 
 ### 音频文件
 #### 规定
@@ -158,7 +160,7 @@
 
 - **必须为Song Page上传拥有足够清晰度的Cover** ，推荐使用大小为400*400的JPEG格式图片。
 - **Cover不能与歌曲完全无关。**
-- **Cover不允许包含Charter信息，除非您已经获得该曲Artist的授权，或者您是Artist之一。**
+- **Cover不允许包含Creator信息，除非您已经获得该曲Artist的授权，或者您是Artist之一。**
 
 #### 准则
 - Cover优选此曲独占封面，次选为专辑封面，都不存在时优选与曲目关联度高的内容。
@@ -166,7 +168,7 @@
 
 ### CID & Chart Page
 *CID既是对应的Chart Page的ID，也是谱面本身所对应的ID。填写0上传时会创建新的Chart Page和CID。
-任何谱面都属于以下三种状态之一，但只有拥有Assistant及以上权限的用户才能更改谱面状态。*
+任何谱面都属于<font color=#cb665b>`alpha`</font>、<font color=#d5d332>`beta`</font>、<font color=#62b69c>`stable`</font>三种状态之一，但只有拥有`Assistant`及以上权限的用户才能更改谱面状态。*
 
 #### 规定
 - **Key模式Chart必须在Tags内勾选对应的轨道数量的Tag。**
@@ -177,9 +179,10 @@
 ### 规定
 - **谱面必须是通过官方Editor制作的，仅使用官方Editor提供的功能。**
 - **当一首歌曲下没有对应模式的Stable谱面时， 作为模式的第一个上架该谱面，需要有一个不高于Lv.10难度的谱面。不同轨道数的Key谱面应当做不同的模式对待。** 已有时，你可以增加任意难度谱面，数量不限。
+- **务必确保歌曲下至少有一张谱面处于适合一般水平玩家（Lv.10~Lv.20）游玩的难度**。
 - **两相邻难度之间的等级差不应大于10。**
 - **谱面的可游玩时间必须大于60秒。**
-- **谱面必须能在Auto模式下达成Perfect Play。**
+- **谱面必须能在Auto模式下达成Perfect Play，且不应存在理论上不可能手动游玩的内容。**
 - **目前Effect只能被用于过于激烈的BPM变速或BPM不稳定的生演奏的缓冲。Effect暂时不允许用于LN/HOLD类物件的起始点。**
 - **特定来源的曲目不允许上架。** 相关内容甚至可能会在不通知谱面作者的情况下被清理。
 
@@ -193,3 +196,42 @@
 
 ### 额外内容
 - 各个Publisher针对谱面内容可能会有不同的要求。具体情况请联系对应Publisher的审核团队以了解详情。
+***
+## 审核团队
+- Key
+
+	> 🇨🇳 [YuzukiY](http://m.mugzone.net/accounts/user/61119)：`4K`  
+	> 🇨🇳 [boomushroom](http://m.mugzone.net/accounts/user/5867)：`4K`  
+	> 🇨🇳 [Shioriko_](http://m.mugzone.net/accounts/user/23095)：`4K`  
+	> 🇨🇳 [AyaseEli](http://m.mugzone.net/accounts/user/42989)：`4K`  
+	> 🇨🇳 [Laddie\_Amoyensis](http://m.mugzone.net/accounts/user/14851)：`Thumb Style`  
+	> 🇯🇵 [yoshilove](http://m.mugzone.net/accounts/user/429)：`4K`、`5K`、`6K`、`7K`、`8K`  
+	> 🇯🇵 [tkdkendo](http://m.mugzone.net/accounts/user/149935)：`4K`、`5K`、`6K`、`7K`  
+	> 🇯🇵 [Elaina-](http://m.mugzone.net/accounts/user/138265)：`4K`、`5K`、`6K`  
+
+- Catch
+	> 🇨🇳 [YakumoChen](http://m.mugzone.net/accounts/user/1004)  
+	> 🇯🇵 [tkdkendo](http://m.mugzone.net/accounts/user/149935)（代理中）
+
+- Pad
+	> 🇨🇳 [xipigu](http://m.mugzone.net/accounts/user/4168)  
+
+- Taiko
+	> 🇨🇳 [xipigu](http://m.mugzone.net/accounts/user/4168)  
+	> 🇨🇳 [laosibiniqiang](http://m.mugzone.net/accounts/user/21237)  
+	> 🇨🇳 [Amami_A_Myamsar](http://m.mugzone.net/accounts/user/13698)  
+	> 🇨🇳 [Zpm](http://m.mugzone.net/accounts/user/49836)  
+	> 🇯🇵 [2nurupo_](http://m.mugzone.net/accounts/user/95645)  
+
+- Ring
+	> 🇨🇳 [Zero__wind](http://m.mugzone.net/accounts/user/374)  
+
+- Slide
+	> 🇨🇳 [xipigu](http://m.mugzone.net/accounts/user/4168)  
+	> 🇨🇳 [Laddie\_Amoyensis](http://m.mugzone.net/accounts/user/14851)
+
+- Live
+	> 🇨🇳 [Pentlandite](http://m.mugzone.net/accounts/user/72727)  
+	> 🇨🇳 [Laddie\_Amoyensis](http://m.mugzone.net/accounts/user/14851)
+
+
