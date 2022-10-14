@@ -176,7 +176,7 @@ Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱�
 #### 规定
 - **Key模式Chart必须在Tags内勾选对应的轨道数量的Tag。**
 - **非Uploader本人创作的谱面上架时，由Publisher将其Transfer至Creator。** 若Creator未拥有Mugzone账号，可挂载于Uploader名下。
-- **多人合作谱面上架时，由Publisher将其Transfer至贡献最大的Creator。** 若Creator未拥有Mugzone账号，按照贡献程度依次顺延，都为拥有则挂载于Uploader名下。
+- **多人合作谱面上架时，由Publisher将其Transfer至贡献最大的Creator。** 若Creator未拥有Mugzone账号，按照贡献程度依次顺延，均未拥有则挂载于Uploader名下。
 ***
 ## 谱面内容
 ### 规定
