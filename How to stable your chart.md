@@ -237,6 +237,6 @@ Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱�
 	> 🇨🇳 [Pentlandite](http://m.mugzone.net/accounts/user/72727)  
 	> 🇨🇳 [Laddie\_Amoyensis](http://m.mugzone.net/accounts/user/14851)
 ***
-[^1]: 如果你经常使用各种根据文件名自动填写音乐文件metadata的软件的话应该会比较熟悉这种标注形式。假设一首曲的Artist为woc2006，Title为MoemoeGirl，按照`%Artist% - %Title%`填写的结果就是`woc2006 - MoemoeGirl`。后面的格式例举相同。
+[^1]: 如果你经常使用各种根据文件名自动填写音乐文件metadata的软件的话应该会比较熟悉这种标注形式。假设一首歌曲的*Artist*为*woc2006*，*Title*为*MoemoeGirl*，按照`%Artist% - %Title%`填写的结果就是`woc2006 - MoemoeGirl`。后面的格式例举相同。
 
 
