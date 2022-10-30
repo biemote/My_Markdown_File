@@ -212,8 +212,8 @@ Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱�
 	> 🇨🇳 [Laddie\_Amoyensis](http://m.mugzone.net/accounts/user/14851)：`Thumb Style`  
 	> 🇨🇳 [mdr9999](http://m.mugzone.net/accounts/user/138477)：`Dance Cube`  
 	> 🇨🇳 [Astesia0](http://m.mugzone.net/accounts/user/759694)：`Dance Cube`  
-	> 🇯🇵 [yoshilove](http://m.mugzone.net/accounts/user/429)：`4K`、`5K`、`6K`、`7K`、`IIDX SP(8K)`、`pop'n(9K)`
-	> 🇯🇵 [DPkaiden](http://m.mugzone.net/accounts/user/96060)：`4K`、`5K`、`6K`、`7K`、`IIDX SP(8K)`
+	> 🇯🇵 [yoshilove](http://m.mugzone.net/accounts/user/429)：`4K`、`5K`、`6K`、`7K`、`IIDX SP(8K)`、`pop'n(9K)`  
+	> 🇯🇵 [DPkaiden](http://m.mugzone.net/accounts/user/96060)：`4K`、`5K`、`6K`、`7K`、`IIDX SP(8K)`  
 	> 🇯🇵 [tkdkendo](http://m.mugzone.net/accounts/user/149935)：`4K`、`5K`、`6K`、`7K`  
 	> 🇯🇵 [Elaina-](http://m.mugzone.net/accounts/user/138265)：`4K`、`5K`、`6K`  
 
