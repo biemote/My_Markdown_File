@@ -180,7 +180,9 @@ Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱�
 ## 谱面内容
 ### 规定
 - **谱面必须是通过官方Editor制作的，仅使用官方Editor提供的功能。**
-- **当一首歌曲下没有对应模式的Stable谱面时， 作为模式的第一个上架该谱面，必须要有一个不高于Lv.10难度的谱面。不同轨道数的Key谱面应当做不同的模式对待。** 已有时，你可以增加任意难度谱面，数量不限。
+- **当一首歌曲下没有对应模式的Stable谱面时，需要有一个低于Lv.10的底难度谱面。** 已有时，你可以增加任意难度谱面，数量不限。
+	- Key模式中，不同轨道数的谱面应当做不同的模式对待。
+	- 此底难度必须是理论拇指可玩的（但`5K`、`6K`、`7K`、`IIDX SP(8K)` 、`pop'n(9K)`、`Pad`的底难度除外）。
 - **必须确保歌曲下至少有一张谱面处于适合一般水平玩家（Lv.10~Lv.20）游玩的难度**。
 - **两相邻难度之间的等级差不应大于10。**
 - **谱面的可游玩时间必须大于60秒。**
@@ -210,8 +212,8 @@ Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱�
 	> 🇨🇳 [Laddie\_Amoyensis](http://m.mugzone.net/accounts/user/14851)：`Thumb Style`  
 	> 🇨🇳 [mdr9999](http://m.mugzone.net/accounts/user/138477)：`Dance Cube`  
 	> 🇨🇳 [Astesia0](http://m.mugzone.net/accounts/user/759694)：`Dance Cube`  
-	> 🇯🇵 [yoshilove](http://m.mugzone.net/accounts/user/429)：`4K`、`5K`、`6K`、`7K`、`8K`  
-	> 🇯🇵 [DPkaiden](http://m.mugzone.net/accounts/user/96060)：`4K`、`5K`、`6K`、`7K`、`8K`  
+	> 🇯🇵 [yoshilove](http://m.mugzone.net/accounts/user/429)：`4K`、`5K`、`6K`、`7K`、`IIDX SP(8K)`、`pop'n(9K)`
+	> 🇯🇵 [DPkaiden](http://m.mugzone.net/accounts/user/96060)：`4K`、`5K`、`6K`、`7K`、`IIDX SP(8K)`
 	> 🇯🇵 [tkdkendo](http://m.mugzone.net/accounts/user/149935)：`4K`、`5K`、`6K`、`7K`  
 	> 🇯🇵 [Elaina-](http://m.mugzone.net/accounts/user/138265)：`4K`、`5K`、`6K`  
 
@@ -242,4 +244,4 @@ Malody社区是一个开放的谱面分享社区，并欢迎各种风格的谱�
 ***
 [^1]: 如果你经常使用各种根据文件名自动填写音乐文件metadata的软件的话应该会比较熟悉这种标注形式。假设一首歌曲的*Artist*为*woc2006*，*Title*为*MoemoeGirl*，按照`%Artist% - %Title%`填写的结果就是`woc2006 - MoemoeGirl`。后面的格式例举相同。
 [^2]:此类内容的判定标准由`Admin`或`Organizer`决定，切勿碰瓷。
-[^3]:这种情况可以使用Spek对音频文件进行检查。如果中频段内有明显的截止的话，基本可以断定音源质量不合格。
+[^3]:这种情况可以使用[**Spek**](http://spek.cc/)对音频文件进行检查。如果中频段内有明显的截止的话，基本可以断定音源质量不合格。
